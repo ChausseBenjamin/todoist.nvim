@@ -61,9 +61,9 @@ call s:hl('todoistDateOverdue',      '#FF6D6D')
 call s:hl('todoistDateToday',        '#52E054')
 call s:hl('todoistDateTomorrow',     '#ff8700')
 call s:hl('todoistDateThisWeek',     '#A873FC')
-call s:hl('todoistContent',          '',      '',        'bold')
 call s:hl('todoistContentCompleted', '',      '',        'strikethrough')
 
+hi def link todoistContent     Delimiter
 hi def link todoistCheckbox    Delimiter
 hi def link todoistDate        Comment
 
